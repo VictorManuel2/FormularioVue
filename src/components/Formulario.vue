@@ -83,7 +83,7 @@
         <td>{{proyecto.proyecto}}</td>
         <td>{{proyecto.tipo}}</td>
         <td @click="cambiarEstado(proyecto)" :class="proyecto.urgente ? 'bg-success' : 'bg-danger'">{{proyecto.urgente ? "Si" : "No"}}</td>
-        <td @click="cambiarEstado(index)" :class="proyecto.urgente ? 'bg-success' : 'bg-danger'">{{proyecto.urgente ? "Completado" : "Incompleto"}}</td>
+        <!-- <td @click="cambiarEstado(index)" :class="proyecto.urgente ? 'bg-success' : 'bg-danger'">{{proyecto.urgente ? "Completado" : "Incompleto"}}</td> -->
 
       </tr>
     </tbody>
